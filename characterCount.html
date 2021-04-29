@@ -1,0 +1,18 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Character Count</title>
+</head>
+<body>
+<form>
+    <label for="textbox">Message</label><br><br>
+    <textarea rows="10" cols="40" id="textbox" maxlength="140" onkeyup="charcountupdate(this.value)">Start typing here</textarea>
+    <br><br>
+ <span id="charcount"></span>
+</form>
+
+<script src="scripts/characterCount.js"></script>
+</body>
+
+</html>
